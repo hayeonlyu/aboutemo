@@ -1904,6 +1904,7 @@ h2 {
     box-sizing: border-box;
     margin: 0;
     overflow: hidden;
+    animation: bg-flicker 4s ease-in-out infinite;
 }
 
 .revival-overlay {
@@ -2449,11 +2450,13 @@ h2 {
     .revival-content .punk-title {
         font-size: 3rem;
         margin-bottom: 16px;
+
     }
 
     .revival-lead {
         font-size: 1.35rem;
         margin-bottom: 16px;
+
     }
 
     .revival-desc {
@@ -2465,6 +2468,7 @@ h2 {
         grid-template-columns: 1fr;
         gap: 30px;
         text-align: center;
+
     }
 
     .footer-brand-col {
