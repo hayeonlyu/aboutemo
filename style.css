@@ -1884,6 +1884,31 @@ h2 {
     line-height: 1.85;
 }
 
+
+.track-wrap {
+    overflow: hidden;
+}
+
+.track {
+    display: flex;
+    gap: 16px;
+    width: max-content;
+    /* 내용물 너비에 맞게 자동 늘어남 */
+    animation: scroll-left 8s linear infinite;
+}
+
+@keyframes scroll-left {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+
+    /* 원본 6장 너비만큼 이동 */
+}
+
 /* ==========================================
    Section 11: Emo Revival Section
    ========================================== */
