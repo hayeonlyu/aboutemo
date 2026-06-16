@@ -1910,7 +1910,7 @@ h2 {
 }
 
 .track img {
-    height: 200px;
+    height: 600px;
     /* 원하는 높이로 조절 */
     width: auto;
     object-fit: cover;
